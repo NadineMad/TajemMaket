@@ -344,8 +344,18 @@ height: 198px;
     padding-left: 15px;
 }
 
-.feedback__wrapper {
+.feedback__forms {
     display: flex;
     justify-content: space-around;
+    flex-direction: column;
+}
+.feedback__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.our__client-company {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
     flex-direction: column;
 }
