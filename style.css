@@ -77,6 +77,7 @@
     justify-content: center;
     padding-top: 52px;
     padding-bottom: 190px;
+
 }
 
 .header__buttons__learn-more {
@@ -92,6 +93,8 @@
     width: 118px;
     height: 38px;
     z-index: 356;
+    background: transparent;
+
 }
 
 .content__container {
@@ -103,6 +106,7 @@
 .content__logo {
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 .content__text {
     padding-left: 93px;
@@ -183,6 +187,8 @@
     display: flex; 
     justify-content: center;
     padding-bottom: 34px; 
+    height: 84px;
+    align-items: centfeedback
 }
 .content__expertise-title-block {
     display: flex;
@@ -344,18 +350,34 @@ height: 198px;
     padding-left: 15px;
 }
 
-.feedback__forms {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
+.feedback__form {
+    max-width: 460px;
 }
 .feedback__wrapper {
     display: flex;
     justify-content: space-between;
 }
-.our__client-company {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap; 
-    flex-direction: column;
+.feedback__client {
+    max-width: 380px;
 }
+.feedback__client-company {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+.feedback__client-company-img {
+    width: 160px;
+    margin-bottom: 48px;
+    display: flex;
+    justify-content: center; 
+}
+.feedback__info-name-label-input {
+    width: 100%;
+    padding: 14px 0px 14px 20px; 
+    border: 1px solid #e5e5e5;
+    box-sizing: border-box;
+}
+
